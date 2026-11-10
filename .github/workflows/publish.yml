@@ -64,7 +64,7 @@ jobs:
 
       - name: Create Release PR or publish stable version to npm
         id: changesets
-        uses: changesets/action@v1
+        uses: changesets/action@v2
         with:
           createGithubReleases: false
           publish: pnpm run publish
